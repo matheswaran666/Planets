@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="/script/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <h1>
+                    THE PLANETS
+                </h1>
+            </div>
+            <div>
+                <ul>
+                   <% planets = ["MERCURY","VENUS","EARTH","MARS","JUPITER","SATURN","URANUS","NEPTUNE"] 
+                   planets.forEach(planet => {%>
+                    <li class="<%=planet.toLowerCase() %>"><a href="/<%= planet.toLowerCase() %>"><%= planet %></a></li>
+                   <% });%>
+                   %>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</body>
+</html>
+

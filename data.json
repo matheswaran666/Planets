@@ -1,0 +1,172 @@
+ [
+      {
+        "planetName": "Mercury",
+        "color": "#419EBB",
+        "overview": {
+          "description": "Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. Mercury is one of four terrestrial planets in the Solar System, and is a rocky body like Earth.",
+          "image": "/src/assets/mercury.svg"
+        },
+        "internalStructure": {
+          "description": "Mercury appears to have a solid silicate crust and mantle overlying a solid, iron sulfide outer core layer, a deeper liquid core layer, and a solid inner core. The planet's density is the second highest in the Solar System at 5.427 g/cm3 , only slightly less than Earth's density.",
+          "image": "/src/assets/planet-mercury-internal.svg"
+        },
+        "surfaceGeology": {
+          "description": "Mercury's surface is similar in appearance to that of the Moon, showing extensive mare-like plains and heavy cratering, indicating that it has been geologically inactive for billions of years. It is more heterogeneous than either Mars's or the Moon’s.",
+          "image": "/src/assets/geology-mercury.png"
+        },
+        "rotation": "58.6 DAYS",
+        "revolution": "87.97 DAYS",
+        "radius": "2,439.7 KM",
+        "temperature": "430°C",
+        "WikipediaLink": "https://en.wikipedia.org/wiki/Mercury"
+      },
+      {
+        "planetName": "Venus",
+        "color": "#EDA249",
+        "overview": {
+          "description": "Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be, on rare occasions, visible to the naked eye in broad daylight.",
+          "image": "/src/assets/venus.svg"
+        },
+        "internalStructure": {
+          "description": "Venus has a central iron core and a rocky mantle, similar to Earth's internal structure. Its surface features many volcanoes, mountains, and expansive plains.",
+          "image": "/src/assets/planet-venus-internal.svg"
+        },
+        "surfaceGeology": {
+          "description": "Venus has a rocky surface covered with craters, volcanoes, and lava plains. The planet’s thick atmosphere and extreme heat reshape the surface over time.",
+          "image": "/src/assets/geology-venus.png"
+        },
+        "rotation": "243 DAYS",
+        "revolution": "224.7 DAYS",
+        "radius": "6,051.8 KM",
+        "temperature": "471°C",
+        "WikipediaLink": "https://en.wikipedia.org/wiki/Venus"
+      },
+      {
+        "planetName": "Earth",
+        "color": "#6D2ED5",
+        "overview": {
+          "description": "Third planet from the Sun and the only known planet to harbor life. About 29.2% of Earth's surface is land with the remaining 70.8% covered with water. Earth's distance from the Sun, physical properties, and geological history allowed life to evolve and thrive.",
+          "image": "/src/assets/earth.svg"
+        },
+        "internalStructure": {
+          "description": "Earth has a layered internal structure: a solid inner core, a liquid outer core creating the magnetic field, a viscous mantle, and a solid crust.",
+          "image": "/src/assets/planet-earth-internal.svg"
+        },
+        "surfaceGeology": {
+          "description": "Earth’s surface is geologically diverse, with mountains, oceans, volcanoes, deserts, forests, and tectonic activity that constantly reshapes the crust.",
+          "image": "/src/assets/geology-earth.png"
+        },
+        "rotation": "0.99 DAYS",
+        "revolution": "365.26 DAYS",
+        "radius": "6,371 KM",
+        "temperature": "16°C",
+        "WikipediaLink": "https://en.wikipedia.org/wiki/Earth"
+      },
+      {
+        "planetName": "Mars",
+        "color": "#D14C32",
+        "overview": {
+          "description": "Mars is the fourth planet from the Sun and is often called the Red Planet due to its reddish appearance caused by iron oxide on its surface.",
+          "image": "/src/assets/mars.svg"
+        },
+        "internalStructure": {
+          "description": "Mars likely has a solid core made of iron, nickel, and sulfur, surrounded by a silicate mantle and a thin crust.",
+          "image": "/src/assets/planet-mars-internal.svg"
+        },
+        "surfaceGeology": {
+          "description": "Mars has the largest volcano in the Solar System (Olympus Mons) and a huge canyon system (Valles Marineris). Dust storms and iron-rich soil give it a red color.",
+          "image": "/src/assets/geology-mars.png"
+        },
+        "rotation": "24.6 HOURS",
+        "revolution": "687 DAYS",
+        "radius": "3,389.5 KM",
+        "temperature": "-63°C",
+        "WikipediaLink": "https://en.wikipedia.org/wiki/Mars"
+      },
+      {
+        "planetName": "Jupiter",
+        "color": "#D83A34",
+        "overview": {
+          "description": "Jupiter is the largest planet in the Solar System and is known for its Great Red Spot, a storm that has lasted for centuries.",
+          "image": "/src/assets/jupiter.svg"
+        },
+        "internalStructure": {
+          "description": "Jupiter may have a small rocky core surrounded by metallic hydrogen and helium. It is mostly gas with no solid surface.",
+          "image": "/src/assets/planet-jupiter-internal.svg"
+        },
+        "surfaceGeology": {
+          "description": "Jupiter has no solid ground. Its visible surface is a thick layer of clouds made of ammonia and hydrogen, shaped by intense storms and winds.",
+          "image": "/src/assets/geology-jupiter.png"
+        },
+        "rotation": "9.9 HOURS",
+        "revolution": "11.86 YEARS",
+        "radius": "69,911 KM",
+        "temperature": "-108°C",
+        "WikipediaLink": "https://en.wikipedia.org/wiki/Jupiter"
+      },
+      {
+        "planetName": "Saturn",
+        "color": "#CD5120",
+        "overview": {
+          "description": "Saturn is famous for its extensive ring system composed of ice and rock particles. It is the second-largest planet in the Solar System.",
+          "image": "/src/assets/saturn.svg"
+        },
+        "internalStructure": {
+          "description": "Saturn likely has a small rocky core surrounded by metallic hydrogen, a thick helium atmosphere, and massive gas layers.",
+          "image": "/src/assets/planet-saturn-internal.svg"
+        },
+        "surfaceGeology": {
+          "description": "Like Jupiter, Saturn has no solid surface. The 'surface' is a layer of clouds shaped by strong winds and storms.",
+          "image": "/src/assets/geology-saturn.png"
+        },
+        "rotation": "10.7 HOURS",
+        "revolution": "29.46 YEARS",
+        "radius": "58,232 KM",
+        "temperature": "-138°C",
+        "WikipediaLink": "https://en.wikipedia.org/wiki/Saturn"
+      },
+      {
+        "planetName": "Uranus",
+        "color": "#1EC1E2",
+        "overview": {
+          "description": "Uranus is an ice giant with a unique sideways rotation. Its atmosphere contains methane, giving it a blue-green color.",
+          "image": "/src/assets/uranus.svg"
+        },
+        "internalStructure": {
+          "description": "Uranus has an icy mantle made of water, ammonia, and methane above a small rocky core. It has no true solid surface.",
+          "image": "/src/assets/planet-uranus-internal.svg"
+        },
+        "surfaceGeology": {
+          "description": "Uranus has no solid geology. The outer layers consist of cold ices and gas with faint cloud features.",
+          "image": "/src/assets/geology-uranus.png"
+        },
+        "rotation": "17.2 HOURS",
+        "revolution": "84 YEARS",
+        "radius": "25,362 KM",
+        "temperature": "-195°C",
+        "WikipediaLink": "https://en.wikipedia.org/wiki/Uranus"
+      },
+      {
+        "planetName": "Neptune",
+        "color": "#2D68F0",
+        "overview": {
+          "description": "Neptune is the farthest known planet from the Sun and is known for its strong winds and deep blue color due to methane in its atmosphere.",
+          "image": "/src/assets/neptune.svg"
+        },
+        "internalStructure": {
+          "description": "Neptune has a hot, dense icy mantle surrounding a small rocky core. Its atmosphere contains hydrogen, helium, and methane.",
+          "image": "/src/assets/planet-neptune-internal.svg"
+        },
+        "surfaceGeology": {
+          "description": "Neptune’s visible surface is stormy, with the fastest winds in the Solar System and clouds made of methane ice crystals.",
+          "image": "/src/assets/geology-neptune.png"
+        },
+        "rotation": "16.1 HOURS",
+        "revolution": "164.8 YEARS",
+        "radius": "24,622 KM",
+        "temperature": "-201°C",
+        "WikipediaLink": "https://en.wikipedia.org/wiki/Neptune"
+      }
+    ]
+
+  

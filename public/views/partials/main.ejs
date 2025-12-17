@@ -1,0 +1,85 @@
+<main data-planet="<%= details.planetName.toLowerCase()%>" data-color=" <%= details.color %>">
+    <div class="planetDet">
+        <div>
+            <img src="<%=details.overview.image %>" alt="">
+            <img class="pin" src="" alt="">
+        </div>
+        <div>
+            <div>
+                <h1>
+                    <%= details.planetName%>
+                </h1>
+            </div>
+            <div class="message">
+                <p>
+                    <%=details.overview.description%>
+                </p>
+            </div>
+            <div>
+                <p>
+                    Source : <a href="<%= details.WikipediaLink  %>" target="_blank">Wikipedia</a>
+                </p>
+            </div>
+            <div class="change">
+                <div class="overviewBtn" data-url="<%=details.overview.image %>" data-description=" <%=details.overview.description%>" style="--color: <%= details.color %>"  >
+                    <button >
+                        <div>01</div>
+                        <div>OVERVIEW</div>
+                    </button>
+                </div>
+                <div class="internalStructureBtn" data-url="<%=details.internalStructure.image %>" data-description=" <%=details.internalStructure.description%>" style="--color: <%= details.color %>">
+                    <button>
+                        <div>02</div>
+                        <div>INTERNAL STRUCTURE</div>
+                    </button>
+                </div>
+                <div class="surfaceGeologyBtn" data-url="<%=details.surfaceGeology.image %>" data-description=" <%=details.surfaceGeology.description%>" style="--color: <%= details.color %>"> 
+                    <button>
+                        <div>03</div>
+                        <div>SURFACE GEOLOGY</div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="constantValues">
+        <div>
+            <div>
+                <p>ROTATION TIME</p>
+            </div>
+            <div>
+                <h1><%=details.rotation %></h1>
+            </div>
+        </div>
+        <div>   
+            <div>
+               <p>REVOLUTION TIME</p>
+            </div>
+            <div>
+                <h1>
+                    <%=details.revolution %>
+                </h1>
+            </div>
+        </div>
+        <div>
+            <div>
+                <p>RADIUS</p>
+            </div>
+            <div>
+                <h1>
+                    <%=details.radius %>
+                </h1>
+            </div>
+        </div>
+        <div>
+            <div>
+                <p>AVERAGE TEMP</p>
+            </div>
+            <div>
+                <h1>
+                    <%=details.temperature %>
+                </h1>
+            </div>
+        </div>
+    </div>
+</main>
